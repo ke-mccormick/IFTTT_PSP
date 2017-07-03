@@ -3,7 +3,7 @@ Application activates IFTTT web triggers based on Power Smart Pricing electrical
 
 https://www.powersmartpricing.org/
 
-The purpose of this program is to activate a IFTTT web trigger if the PSP price is greater than a user defined pricing point, and will activate a different IFTTT web trigger when the price is equal or less than the user defined pricing point.
+The purpose of this program is to activate a IFTTT web trigger if the PSP price is greater than a user defined pricing point, and will activate a different IFTTT web trigger when the price is equal or less than the user defined pricing point. You can use this application for notifications, or to change the behavior of Thermostats such as Ecobee or Nest.
 
 The program requires IFTTT webhooks called PSP_Price_High_Notify and PSP_Price_Low_Notify for one time notifications when price level changes. The program requires IFTTT webhooks called PSP_Price_High and PSP_Price_Low for activating triggers every hour based on the pricing level. Make sure the webhook event names match the names listed above and configure the applets however you like be notified.
 
